@@ -1,5 +1,5 @@
+#!/usr/bin/env python2
 from pwn import *
-import binascii
 
 r = remote('dm-col.ctfcompetition.com', 1337)
 

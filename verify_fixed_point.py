@@ -18,7 +18,10 @@ def Compress(reader):
 def main():
   key = b'\x00' * KEY_SIZE
   inp = b'\x00' * KEY_SIZE
-  print(binascii.hexlify(DESEncrypt(inp, key)))
+  print('E(0, 0)     = {}'.format(binascii.hexlify(DESEncrypt(inp, key))))
+
+  inp = binascii.unhexlify('0f97040400000008')
+  print('fixed point = {}'.format(binascii.hexlify(DESEncrypt(inp, key))))
 
 
 if __name__ == '__main__':
