@@ -9,7 +9,7 @@
 
 TL;DR: do horrible things to a one-way compression function by leveraging weak keys in the DES block cipher.
 
-Read my writeup [here](https://fortenf.org/e/ctfs/crypto/2018/06/27/google-ctf-2018-dm-collision.html).
+Read my writeup [here](https://fortenf.org/e/ctfs/crypto/2018/06/26/google-ctf-2018-dm-collision.html).
 
 ![flag](images/success.png)
 
